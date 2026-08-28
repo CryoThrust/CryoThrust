@@ -38,7 +38,7 @@ Backend   Java / Spring / 分布式系统 / 可观测性
 | [neutrino-proxy](https://github.com/dromara/neutrino-proxy) | 端口映射管理、参数校验、数据库迁移与端口组行为修复。<br>[commit 证据](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) | 已提交 |
 | [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) | 修复 Agent 渐进式工具披露中空 `groupedTools` Map 无法动态更新的问题，并补充回归测试。<br>[PR #4935](https://github.com/alibaba/spring-ai-alibaba/pull/4935) · [Issue #4929](https://github.com/alibaba/spring-ai-alibaba/issues/4929) | Review 中 |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 修复 `context_type=skill` 的隐式检索目标解析、记忆合并中的重复行号前缀累积，以及 OpenAI-compatible embedding 的显式多模态配置透传。<br>[PR #4423](https://github.com/volcengine/OpenViking/pull/4423) · [PR #4424](https://github.com/volcengine/OpenViking/pull/4424) · [PR #4432](https://github.com/volcengine/OpenViking/pull/4432) | Review 中 |
-| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 修复 filesystem 的 UTF-8 分块边界乱码与 POSIX 环境 Windows 路径误解析。<br>[PR #4703](https://github.com/modelcontextprotocol/servers/pull/4703) · [PR #4704](https://github.com/modelcontextprotocol/servers/pull/4704) | CI 通过，Review 中 |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 修复 filesystem 的 UTF-8 分块边界乱码与 POSIX 环境 Windows 路径误解析；为 memory server 增加知识图谱快照的原子持久化。<br>[PR #4703](https://github.com/modelcontextprotocol/servers/pull/4703) · [PR #4704](https://github.com/modelcontextprotocol/servers/pull/4704) · [PR #4707](https://github.com/modelcontextprotocol/servers/pull/4707) | CI 通过，Review 中 |
 
 ## 技术方向
 
