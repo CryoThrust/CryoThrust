@@ -52,6 +52,12 @@
 
 贡献证据：[PR #4423](https://github.com/volcengine/OpenViking/pull/4423) · [Issue #3739](https://github.com/volcengine/OpenViking/issues/3739)
 
+### [MCP Servers](https://github.com/modelcontextprotocol/servers) · 贡献者 · ⭐ 80k+
+
+修复 filesystem server 在 1024 字节分块边界切分多字节 UTF-8 字符时产生乱码的问题，分别为 `head` 与 `tail` 路径增加跨块安全解码处理。
+
+贡献证据：[PR #4703](https://github.com/modelcontextprotocol/servers/pull/4703) · [Issue #4666](https://github.com/modelcontextprotocol/servers/issues/4666)
+
 ## 技术关注
 
 持续研究并借鉴这些项目中的 AI 工程实践。它们是我关注的上游项目，不代表我的原创项目。
