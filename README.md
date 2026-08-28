@@ -60,6 +60,8 @@
 
 补充修复：[PR #4704](https://github.com/modelcontextprotocol/servers/pull/4704) · [Issue #4686](https://github.com/modelcontextprotocol/servers/issues/4686)：在 POSIX 环境拒绝 Windows 盘符路径，避免跨平台路径被静默当作相对路径写入错误位置。
 
+补充修复：[OpenViking PR #4424](https://github.com/volcengine/OpenViking/pull/4424) · [Issue #4413](https://github.com/volcengine/OpenViking/issues/4413)：修复记忆 Patch Merge 中重复行号前缀累积导致的内容污染。
+
 ## 技术关注
 
 持续研究并借鉴这些项目中的 AI 工程实践。它们是我关注的上游项目，不代表我的原创项目。
