@@ -46,6 +46,12 @@
 
 贡献证据：[PR #4935](https://github.com/alibaba/spring-ai-alibaba/pull/4935) · [Issue #4929](https://github.com/alibaba/spring-ai-alibaba/issues/4929)
 
+### [OpenViking](https://github.com/volcengine/OpenViking) · 贡献者 · ⭐ 30k+
+
+修复搜索接口在 `context_type=skill` 且未指定目标 URI 时遗漏共享 Agent Skill 目录的问题，将上下文类型贯通到隐式检索目标解析，并补充 `find/search` 回归测试。
+
+贡献证据：[PR #4423](https://github.com/volcengine/OpenViking/pull/4423) · [Issue #3739](https://github.com/volcengine/OpenViking/issues/3739)
+
 ## 技术关注
 
 持续研究并借鉴这些项目中的 AI 工程实践。它们是我关注的上游项目，不代表我的原创项目。
