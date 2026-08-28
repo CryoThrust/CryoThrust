@@ -1,6 +1,6 @@
 <div align="center">
 
-# Yohanes · CryoThrust
+# Yohanes
 
 **Java 后端工程师 · AI 应用工程师**
 
