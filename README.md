@@ -2,72 +2,72 @@
 
 # Yohanes · CryoThrust
 
-**Java Backend Engineer · AI Application Builder**
+**Java 后端工程师 · AI 应用构建者**
 
-I build production-minded backend systems and practical AI applications.
+专注于构建面向生产环境的后端系统与实用型 AI 应用。
 
-<a href="https://github.com/CryoThrust?tab=repositories">Projects</a> ·
-<a href="https://github.com/CryoThrust/openai-codex-adapter">AI infrastructure</a> ·
-<a href="https://github.com/CryoThrust/agent-skills">Agent tooling</a>
+<a href="https://github.com/CryoThrust?tab=repositories">项目</a> ·
+<a href="https://github.com/CryoThrust/openai-codex-adapter">AI 基础设施</a> ·
+<a href="https://github.com/CryoThrust/agent-skills">Agent 工具链</a>
 
 </div>
 
-## What I work on
+## 我在做什么
 
-- **Backend systems** — Java, Spring Boot, MyBatis, microservices, Redis, messaging and distributed-system fundamentals.
-- **AI applications** — RAG pipelines, knowledge engineering, hybrid retrieval, knowledge graphs and tool-using agents.
-- **Engineering quality** — observability, evaluation, performance tuning and maintainable system boundaries.
+- **后端系统** — Java、Spring Boot、MyBatis、微服务、Redis、消息中间件与分布式系统。
+- **AI 应用** — RAG 流程、知识工程、混合检索、知识图谱与工具调用 Agent。
+- **工程质量** — 可观测性、效果评估、性能调优与清晰可维护的系统边界。
 
-## Built & maintained
+## 自主构建与维护
 
-| Project | What it demonstrates |
+| 项目 | 技术与工程实践 |
 | --- | --- |
-| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | A compatibility layer between OpenAI Chat Completions and the Codex Responses API, with retry handling. |
-| [agent-skills](https://github.com/CryoThrust/agent-skills) | Reusable skills for AI agents, including architecture-diagram generation. |
-| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | A Codex plugin pattern for delegating implementation while keeping independent verification. |
-| [Sesh](https://github.com/CryoThrust/Sesh) | Native macOS tooling for browsing and managing Claude Code sessions. |
-| [ClaudeSessionManager](https://github.com/CryoThrust/ClaudeSessionManager) | macOS tooling for browsing and managing Claude Code sessions. |
+| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | OpenAI Chat Completions 与 Codex Responses API 的兼容适配层，包含重试处理。 |
+| [agent-skills](https://github.com/CryoThrust/agent-skills) | 面向 AI Agent 的可复用 Skill 集合，包含架构图生成能力。 |
+| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | Codex 插件实践：委托实现任务，同时保留独立验证流程。 |
+| [Sesh](https://github.com/CryoThrust/Sesh) | 用于浏览和管理 Claude Code 会话的原生 macOS 工具。 |
+| [ClaudeSessionManager](https://github.com/CryoThrust/ClaudeSessionManager) | 用于浏览和管理 Claude Code 会话的 macOS 工具。 |
 
-## Open-source contribution
+## 开源贡献
 
-### [neutrino-proxy](https://github.com/dromara/neutrino-proxy) · Contributor · ⭐ 700+
+### [neutrino-proxy](https://github.com/dromara/neutrino-proxy) · 贡献者 · ⭐ 700+
 
-Contributed production fixes and feature work to a widely used open-source intranet proxy project:
+参与一个高星开源内网代理项目的生产修复与功能开发：
 
-- Port-mapping management improvements, including port groups, search and ordering.
-- Validation and database migration updates for the management workflow.
-- Bug fixes for port-group selection and mapping behavior.
+- 改进端口映射管理，包括端口分组、搜索与排序。
+- 完善管理流程中的参数校验与数据库迁移。
+- 修复端口组选择和映射行为相关问题。
 
-Evidence: [port mapping](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) · [bug fix](https://github.com/dromara/neutrino-proxy/commit/559c6bd5f548a109cbaeaeefee6ee4e2a0b1f964) · [validation](https://github.com/dromara/neutrino-proxy/commit/a5c568392b05d204ac66c408705ffe6ecd7b19cd)
+贡献证据：[端口映射](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) · [问题修复](https://github.com/dromara/neutrino-proxy/commit/559c6bd5f548a109cbaeaeefee6ee4e2a0b1f964) · [参数校验](https://github.com/dromara/neutrino-proxy/commit/a5c568392b05d204ac66c408705ffe6ecd7b19cd)
 
-### [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) · Contributor · ⭐ 10k+
+### [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) · 贡献者 · ⭐ 10k+
 
-Proposed a focused fix for progressive tool disclosure: preserve an initially empty, externally managed `groupedTools` map so tools added after agent construction become available without rebuilding the interceptor.
+针对渐进式工具披露提出修复：保留外部维护的初始空 `groupedTools`，使 Agent 创建后新增的工具无需重建拦截器即可生效。
 
-Evidence: [PR #4935](https://github.com/alibaba/spring-ai-alibaba/pull/4935) · [Issue #4929](https://github.com/alibaba/spring-ai-alibaba/issues/4929)
+贡献证据：[PR #4935](https://github.com/alibaba/spring-ai-alibaba/pull/4935) · [Issue #4929](https://github.com/alibaba/spring-ai-alibaba/issues/4929)
 
-## Research radar
+## 技术关注
 
-Projects I study and use as references for current AI engineering patterns. These are upstream projects, not claimed as my own work.
+持续研究并借鉴这些项目中的 AI 工程实践。它们是我关注的上游项目，不代表我的原创项目。
 
-| Area | Reference project | Why it matters |
+| 方向 | 参考项目 | 关注点 |
 | --- | --- | --- |
-| Agent context & memory | [OpenViking](https://github.com/volcengine/OpenViking) · [Mem0](https://github.com/mem0ai/mem0) <br> ![stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat-square) ![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square) | Persistent context, agent memory and reusable knowledge. |
-| Agent orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) <br> ![stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square) | Stateful, controllable workflows for resilient agents. |
-| Tool interoperability | [MCP servers](https://github.com/modelcontextprotocol/servers) <br> ![stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square) | A common protocol for connecting agents to tools and data. |
-| RAG infrastructure | [RAGFlow](https://github.com/infiniflow/ragflow) <br> ![stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square) | Production-oriented retrieval and agent context pipelines. |
+| Agent 上下文与记忆 | [OpenViking](https://github.com/volcengine/OpenViking) · [Mem0](https://github.com/mem0ai/mem0) <br> ![stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat-square) ![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square) | 持久化上下文、Agent 记忆与可复用知识。 |
+| Agent 编排 | [LangGraph](https://github.com/langchain-ai/langgraph) <br> ![stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square) | 面向高可靠 Agent 的有状态、可控工作流。 |
+| 工具互操作 | [MCP servers](https://github.com/modelcontextprotocol/servers) <br> ![stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square) | 连接 Agent、工具与数据的通用协议。 |
+| RAG 基础设施 | [RAGFlow](https://github.com/infiniflow/ragflow) <br> ![stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square) | 面向生产环境的检索与 Agent 上下文流程。 |
 
-The ideas I care about most are **grounded generation**, **stateful tool use**, **observable evaluation**, and **reliable recovery** — the difference between an impressive demo and a system people can depend on.
+我最关注 **有依据的生成**、**有状态工具调用**、**可观测评估** 与 **可靠恢复**：这决定了一个系统只是演示效果惊艳，还是能够真正被依赖。
 
-## Current focus
+## 当前重点
 
 ```text
-RAG quality      → retrieval, reranking, grounding, evaluation
-Agent systems    → tool calling, state, orchestration, recovery
-Backend design   → clear boundaries, reliable workflows, observable services
+RAG 质量         → 检索、重排、可溯源生成、效果评估
+Agent 系统       → 工具调用、状态、编排、故障恢复
+后端设计         → 清晰边界、可靠流程、可观测服务
 ```
 
-## Technical stack
+## 技术栈
 
 `Java` `Spring Boot` `MyBatis` `Spring Cloud Alibaba` `MySQL` `Redis`
 
@@ -77,9 +77,9 @@ Backend design   → clear boundaries, reliable workflows, observable services
 
 `Agent` `Function Calling` `Langfuse` `MinerU`
 
-## How I think about engineering
+## 我的工程理念
 
-> A useful system is more than a working demo: it has clear data boundaries, observable behavior, measurable quality and a recovery path when reality gets messy.
+> 一个有价值的系统不只是能跑通的 Demo：它应该具备清晰的数据边界、可观测的行为、可度量的质量，以及面对真实复杂情况时的恢复路径。
 
 <div align="center">
 
