@@ -40,6 +40,12 @@ Contributed production fixes and feature work to a widely used open-source intra
 
 Evidence: [port mapping](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) · [bug fix](https://github.com/dromara/neutrino-proxy/commit/559c6bd5f548a109cbaeaeefee6ee4e2a0b1f964) · [validation](https://github.com/dromara/neutrino-proxy/commit/a5c568392b05d204ac66c408705ffe6ecd7b19cd)
 
+### [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) · Contributor · ⭐ 10k+
+
+Proposed a focused fix for progressive tool disclosure: preserve an initially empty, externally managed `groupedTools` map so tools added after agent construction become available without rebuilding the interceptor.
+
+Evidence: [PR #4935](https://github.com/alibaba/spring-ai-alibaba/pull/4935) · [Issue #4929](https://github.com/alibaba/spring-ai-alibaba/issues/4929)
+
 ## Research radar
 
 Projects I study and use as references for current AI engineering patterns. These are upstream projects, not claimed as my own work.
