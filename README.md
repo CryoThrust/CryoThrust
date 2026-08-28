@@ -2,17 +2,17 @@
 
 # Yohanes · CryoThrust
 
-**Java 后端工程师 / AI 应用工程师**
+**Java 后端工程师 · AI 应用工程师**
 
-面向真实业务构建可靠的后端系统、RAG 流程与工具调用 Agent。
+把模型能力做成可运行、可观测、可恢复的工程系统。
 
-[项目](https://github.com/CryoThrust?tab=repositories) · [开源贡献](#开源贡献) · [技术方向](#技术方向)
+[精选项目](#精选项目) · [开源贡献](#开源贡献) · [技术栈](#技术栈)
 
 </div>
 
-## 我关注的问题
+## 我在做什么
 
-我更关心 AI 系统落地后的工程问题：上下文如何管理、检索结果如何评估、工具调用如何恢复、服务行为如何观测。
+我关注 AI 系统进入真实业务后的工程问题：上下文如何管理，检索结果如何评估，工具调用如何恢复，以及服务行为如何观测。
 
 ```text
 RAG       检索 / 重排 / 依据链 / 评估
@@ -20,14 +20,14 @@ Agent     工具调用 / 状态 / 编排 / 恢复
 Backend   Java / Spring / 分布式系统 / 可观测性
 ```
 
-## 自主构建
+## 精选项目
 
 | 项目 | 简介 |
 | --- | --- |
-| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | OpenAI Chat Completions 与 Codex Responses API 的协议适配层，包含重试与兼容处理。 |
-| [agent-skills](https://github.com/CryoThrust/agent-skills) | 面向 Agent 的可复用 Skill 与工程工作流，覆盖架构图等常见研发任务。 |
-| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | Agent 委托执行插件：拆分实现与验证，保留可审查的执行边界。 |
-| [Sesh](https://github.com/CryoThrust/Sesh) | 原生 macOS 会话管理工具，用于浏览和整理 Claude Code 工作记录。 |
+| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | **协议适配与兼容性**：连接 Chat Completions 与 Codex Responses API，处理重试、流式响应和协议差异。 |
+| [agent-skills](https://github.com/CryoThrust/agent-skills) | **Agent 工程工作流**：沉淀可复用 Skill，把复杂研发任务拆成可验证的步骤。 |
+| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | **委托执行边界**：分离实现、验证与审查，保留清晰的执行上下文。 |
+| [Sesh](https://github.com/CryoThrust/Sesh) | **开发效率工具**：原生 macOS 会话管理工具，用于浏览和整理 Claude Code 工作记录。 |
 
 ## 开源贡献
 
@@ -58,6 +58,12 @@ Backend   Java / Spring / 分布式系统 / 可观测性
 `RAG` `Embedding` `Hybrid Retrieval` `Neo4j` `GraphRAG` `LightRAG`
 
 `Agent` `Function Calling` `MCP` `Langfuse` `MinerU`
+
+## 工作方式
+
+- 从公开 Issue 或可复现问题出发，先缩小影响范围，再提交最小修复。
+- 用回归测试、CI 和可追溯链接说明改动，而不是只描述概念。
+- 优先处理边界条件：编码、路径、状态、上下文和失败恢复。
 
 ## 工程原则
 
