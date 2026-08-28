@@ -18,7 +18,7 @@ I build production-minded backend systems and practical AI applications.
 - **AI applications** — RAG pipelines, knowledge engineering, hybrid retrieval, knowledge graphs and tool-using agents.
 - **Engineering quality** — observability, evaluation, performance tuning and maintainable system boundaries.
 
-## Selected work
+## Built & maintained
 
 | Project | What it demonstrates |
 | --- | --- |
@@ -27,6 +27,19 @@ I build production-minded backend systems and practical AI applications.
 | [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | A Codex plugin pattern for delegating implementation while keeping independent verification. |
 | [Sesh](https://github.com/CryoThrust/Sesh) | Native macOS tooling for browsing and managing Claude Code sessions. |
 | [ClaudeSessionManager](https://github.com/CryoThrust/ClaudeSessionManager) | macOS tooling for browsing and managing Claude Code sessions. |
+
+## Research radar
+
+Projects I study and use as references for current AI engineering patterns. These are upstream projects, not claimed as my own work.
+
+| Area | Reference project | Why it matters |
+| --- | --- | --- |
+| Agent context & memory | [OpenViking](https://github.com/volcengine/OpenViking) · [Mem0](https://github.com/mem0ai/mem0) <br> ![stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat-square) ![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square) | Persistent context, agent memory and reusable knowledge. |
+| Agent orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) <br> ![stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square) | Stateful, controllable workflows for resilient agents. |
+| Tool interoperability | [MCP servers](https://github.com/modelcontextprotocol/servers) <br> ![stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square) | A common protocol for connecting agents to tools and data. |
+| RAG infrastructure | [RAGFlow](https://github.com/infiniflow/ragflow) <br> ![stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square) | Production-oriented retrieval and agent context pipelines. |
+
+The ideas I care about most are **grounded generation**, **stateful tool use**, **observable evaluation**, and **reliable recovery** — the difference between an impressive demo and a system people can depend on.
 
 ## Current focus
 
