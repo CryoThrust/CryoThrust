@@ -28,6 +28,18 @@ I build production-minded backend systems and practical AI applications.
 | [Sesh](https://github.com/CryoThrust/Sesh) | Native macOS tooling for browsing and managing Claude Code sessions. |
 | [ClaudeSessionManager](https://github.com/CryoThrust/ClaudeSessionManager) | macOS tooling for browsing and managing Claude Code sessions. |
 
+## Open-source contribution
+
+### [neutrino-proxy](https://github.com/dromara/neutrino-proxy) · Contributor · ⭐ 700+
+
+Contributed production fixes and feature work to a widely used open-source intranet proxy project:
+
+- Port-mapping management improvements, including port groups, search and ordering.
+- Validation and database migration updates for the management workflow.
+- Bug fixes for port-group selection and mapping behavior.
+
+Evidence: [port mapping](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) · [bug fix](https://github.com/dromara/neutrino-proxy/commit/559c6bd5f548a109cbaeaeefee6ee4e2a0b1f964) · [validation](https://github.com/dromara/neutrino-proxy/commit/a5c568392b05d204ac66c408705ffe6ecd7b19cd)
+
 ## Research radar
 
 Projects I study and use as references for current AI engineering patterns. These are upstream projects, not claimed as my own work.
