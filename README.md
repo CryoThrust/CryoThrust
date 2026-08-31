@@ -2,55 +2,50 @@
 
 # Yohanes
 
-**Java Backend · AI Systems**
+Building reliable AI systems — RAG · Agent · Backend
 
 </div>
 
-## 开源贡献
+---
 
-> 公开 PR / Issue / commit 为唯一依据。
+## Open Source
 
-### 🔵 [OpenViking](https://github.com/volcengine/OpenViking) — 字节跳动 AI Agent 上下文数据库
+**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)** — ByteDance's AI Agent Context Database
 
-持续贡献 6 个 PR，覆盖检索、记忆、知识图谱、会话恢复等核心模块。
+6 PRs across retrieval, memory, knowledge graph, and session recovery modules.
 
-| # | 内容 | PR |
-|---|------|-----|
-| 1 | 检索目标解析修复 | [#4423](https://github.com/volcengine/OpenViking/pull/4423) |
-| 2 | 记忆文本规范化 | [#4424](https://github.com/volcengine/OpenViking/pull/4424) |
-| 3 | 多模态 embedding 配置 | [#4432](https://github.com/volcengine/OpenViking/pull/4432) |
-| 4 | 知识图谱展示修复 | [#4435](https://github.com/volcengine/OpenViking/pull/4435) |
-| 5 | 会话恢复重试机制 | [#4437](https://github.com/volcengine/OpenViking/pull/4437) |
-| 6 | RAGFS 锁错误诊断 | [#4507](https://github.com/volcengine/OpenViking/pull/4507) |
+> [#4423](https://github.com/volcengine/OpenViking/pull/4423) Retrieval target parsing fix
+> [#4424](https://github.com/volcengine/OpenViking/pull/4424) Memory text normalization
+> [#4432](https://github.com/volcengine/OpenViking/pull/4432) Multimodal embedding configuration
+> [#4435](https://github.com/volcengine/OpenViking/pull/4435) Knowledge graph display fix
+> [#4437](https://github.com/volcengine/OpenViking/pull/4437) Session recovery retry mechanism
+> [#4507](https://github.com/volcengine/OpenViking/pull/4507) RAGFS lock error diagnosis
 
-### 🟢 [MCP Servers](https://github.com/modelcontextprotocol/servers) — Anthropic 官方 MCP 协议实现
+**[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — Anthropic's Official MCP Implementation
 
-| 内容 | PR |
-|------|-----|
-| filesystem UTF-8 分块边界修复（已合并） | [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) |
-| POSIX 环境下 Windows 路径误解析修复 | [#4703](https://github.com/modelcontextprotocol/servers/pull/4703) |
+> [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) ✅ Fix UTF-8 chunk boundary in filesystem server
+> [#4703](https://github.com/modelcontextprotocol/servers/pull/4703) Fix Windows path parsing on POSIX systems
 
-### 🟡 [agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai) — Spring AI Agent 框架
+**[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)** — Spring AI Agent Framework
 
-| 内容 | PR |
-|------|-----|
-| 修复渐进式工具披露中 grouped tools 动态更新，补充回归测试（已合并） | [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) |
+> [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) ✅ Fix dynamic grouped tools update in progressive tool disclosure
 
-### ⚪ [neutrino-proxy](https://github.com/dromara/neutrino-proxy) — 内网穿透代理
+**[dromara/neutrino-proxy](https://github.com/dromara/neutrino-proxy)** — NAT Traversal Proxy
 
-端口映射、参数校验、数据库迁移与端口组行为修复。  ·  [commit e725cdb](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98)
+> [e725cdb](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) Port mapping, parameter validation, DB migration fixes
 
 ---
 
-## 原创项目
+## Projects
 
-| 项目 | 说明 |
-|------|------|
-| [**openai-codex-adapter**](https://github.com/CryoThrust/openai-codex-adapter) | OpenAI Chat Completions ↔ Codex Responses API 协议适配层。流式事件、重试、兼容性处理。 |
-| [**codex-claude-executor**](https://github.com/CryoThrust/codex-claude-executor) | Codex 插件：将实现委托给 Claude Code，Codex 独立验证。实现 / 验证 / 审查边界清晰。 |
-| [**Sesh**](https://github.com/CryoThrust/Sesh) | 原生 macOS Claude Code 会话管理工具。浏览、搜索、管理开发会话。 |
-| [**agent-skills**](https://github.com/CryoThrust/agent-skills) | Agent 研发可复用工作流与工程化 Skill。 |
+**[openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter)** — Protocol adapter between OpenAI Chat Completions and Codex Responses API. Streaming events, retry logic, and compatibility handling.
+
+**[codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor)** — Codex plugin that delegates implementation to Claude Code with independent verification. Clean boundaries between implementation, verification, and review.
+
+**[Sesh](https://github.com/CryoThrust/Sesh)** — Native macOS app for browsing, searching, and managing Claude Code sessions.
+
+**[agent-skills](https://github.com/CryoThrust/agent-skills)** — Reusable workflows and engineering skills for AI agent development.
 
 ---
 
-> Reliable AI systems are built at the boundaries: state, protocols, data, and failure recovery.
+> *Reliable AI systems are built at the boundaries: state, protocols, data, and failure recovery.*
