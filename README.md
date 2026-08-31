@@ -36,7 +36,7 @@ Backend   Java / Spring / 分布式系统 / 可观测性
 | 项目 | 贡献内容 | 状态 |
 | --- | --- | --- |
 | [neutrino-proxy](https://github.com/dromara/neutrino-proxy) | 端口映射管理、参数校验、数据库迁移与端口组行为修复。<br>[commit 证据](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) | 已提交 |
-| [agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai) | 修复 Agent 渐进式工具披露中空 `groupedTools` Map 无法动态更新的问题，并补充回归测试。<br>[PR #22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) | 已合并 |
+| [agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai) | 修复 Agent 渐进式工具披露中空 `groupedTools` Map 无法动态更新的问题，并补充回归测试。<br>[PR #22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) · [合并提交 8c65205](https://github.com/agentic-spring-ai/agentic-spring-ai/commit/8c65205bd2c75531054e11cf7ee3fce41348432f) | 已合并 |
 | [OpenViking](https://github.com/volcengine/OpenViking) | 修复 `context_type=skill` 的隐式检索目标解析、记忆合并中的重复行号前缀累积、OpenAI-compatible embedding 的显式多模态配置透传、知识图谱推荐 `module` 类型的可视化降级，以及会话归档在记忆抽取临时失败后的恢复重试。<br>[PR #4423](https://github.com/volcengine/OpenViking/pull/4423) · [PR #4424](https://github.com/volcengine/OpenViking/pull/4424) · [PR #4432](https://github.com/volcengine/OpenViking/pull/4432) · [PR #4435](https://github.com/volcengine/OpenViking/pull/4435) · [PR #4437](https://github.com/volcengine/OpenViking/pull/4437) | 前 4 个等待 Review；#4437 已按意见更新，等待复审 |
 | [MCP Servers](https://github.com/modelcontextprotocol/servers) | 修复 filesystem 的 UTF-8 分块边界乱码与 POSIX 环境 Windows 路径误解析。<br>[PR #4703](https://github.com/modelcontextprotocol/servers/pull/4703) · [PR #4704](https://github.com/modelcontextprotocol/servers/pull/4704) | #4704 已合并；#4703 已关闭 |
 
