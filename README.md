@@ -53,13 +53,4 @@
 
 ---
 
-## 技术栈
-
-`Java` `Spring Boot` `MyBatis` `Spring Cloud Alibaba` `MySQL` `Redis`
-`RocketMQ` `RabbitMQ` `Kafka` `Docker` `Linux` `Nginx`
-`RAG` `Embedding` `Hybrid Retrieval` `Neo4j` `GraphRAG` `LightRAG`
-`Agent` `Function Calling` `MCP` `Langfuse` `MinerU`
-
----
-
 > Reliable AI systems are built at the boundaries: state, protocols, data, and failure recovery.
