@@ -2,9 +2,9 @@
 
 # Yohanes
 
-把模型能力落到可靠的后端系统
+尽我所能，尽我所不能
 
-Building reliable AI systems — RAG · Agent · Backend
+Do what I can, attempt what I cannot
 
 </div>
 
