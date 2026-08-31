@@ -2,58 +2,43 @@
 
 # Yohanes
 
-**Java 后端工程师 · AI 应用工程师**
+**Java Backend · AI Systems**
 
-把模型能力做成可运行、可观测、可恢复的工程系统，并持续参与真实开源项目建设。
+把模型能力落到可靠的后端系统：可观测、可恢复、可演进。
 
 [精选项目](#精选项目) · [开源贡献](#开源贡献) · [技术栈](#技术栈)
 
 </div>
 
-## 我在做什么
+## 关注方向
 
-我关注 AI 系统进入真实业务后的工程问题：上下文如何管理，检索结果如何评估，工具调用如何恢复，以及服务行为如何观测。
+面向真实业务中的 AI 系统，重点处理上下文、检索、工具调用和长任务执行的工程边界。
 
-```text
-RAG       检索 / 重排 / 依据链 / 评估
-Agent     工具调用 / 状态 / 编排 / 恢复
-Backend   Java / Spring / 分布式系统 / 可观测性
-```
+| 方向 | 工程关注点 |
+| --- | --- |
+| **RAG** | 混合检索、重排、知识图谱、依据链与质量评估 |
+| **Agent** | 工具协议、状态编排、记忆、任务恢复与可观测性 |
+| **Backend** | Java / Spring、分布式系统、消息驱动与服务治理 |
 
 ## 精选项目
 
-| 项目 | 简介 |
+| 项目 | 说明 |
 | --- | --- |
-| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | **协议适配与兼容性**：连接 Chat Completions 与 Codex Responses API，处理重试、流式响应和协议差异。 |
-| [agent-skills](https://github.com/CryoThrust/agent-skills) | **Agent 工程工作流**：沉淀可复用 Skill，把复杂研发任务拆成可验证的步骤。 |
-| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | **委托执行边界**：分离实现、验证与审查，保留清晰的执行上下文。 |
-| [Sesh](https://github.com/CryoThrust/Sesh) | **开发效率工具**：原生 macOS 会话管理工具，用于浏览和整理 Claude Code 工作记录。 |
+| [openai-codex-adapter](https://github.com/CryoThrust/openai-codex-adapter) | OpenAI Chat Completions 与 Codex Responses API 的协议适配层，覆盖流式事件、重试与兼容性处理。 |
+| [agent-skills](https://github.com/CryoThrust/agent-skills) | 面向 Agent 研发的可复用工作流与工程化 Skill。 |
+| [codex-claude-executor](https://github.com/CryoThrust/codex-claude-executor) | 将实现委托、验证和审查拆分为清晰边界的 Codex 插件。 |
+| [Sesh](https://github.com/CryoThrust/Sesh) | 原生 macOS 开发会话管理工具。 |
 
 ## 开源贡献
 
-以下内容均链接到公开 Issue、PR 或 commit；尚未合并的工作明确标注为进行中。
+公开 Issue、PR 和 commit 是这部分内容的唯一依据。
 
-| 项目 | 贡献内容 | 状态 |
+| 项目 | 贡献主题 | 公开记录 |
 | --- | --- | --- |
-| [neutrino-proxy](https://github.com/dromara/neutrino-proxy) | 端口映射管理、参数校验、数据库迁移与端口组行为修复。<br>[commit 证据](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) | 已提交 |
-| [agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai) | 修复 Agent 渐进式工具披露中空 `groupedTools` Map 无法动态更新的问题，并补充回归测试。<br>[PR #22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) · [合并提交 8c65205](https://github.com/agentic-spring-ai/agentic-spring-ai/commit/8c65205bd2c75531054e11cf7ee3fce41348432f) | 已合并 |
-| [OpenViking](https://github.com/volcengine/OpenViking) | 修复 `context_type=skill` 的隐式检索目标解析、记忆合并中的重复行号前缀累积、OpenAI-compatible embedding 的显式多模态配置透传、知识图谱推荐 `module` 类型的可视化降级、会话归档在记忆抽取临时失败后的恢复重试，以及 RAGFS 锁创建失败时底层错误信息丢失。<br>[PR #4423](https://github.com/volcengine/OpenViking/pull/4423) · [PR #4424](https://github.com/volcengine/OpenViking/pull/4424) · [PR #4432](https://github.com/volcengine/OpenViking/pull/4432) · [PR #4435](https://github.com/volcengine/OpenViking/pull/4435) · [PR #4437](https://github.com/volcengine/OpenViking/pull/4437) · [PR #4507](https://github.com/volcengine/OpenViking/pull/4507) | #4507 等待 Review；#4437 已按意见更新，等待复审 |
-| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 修复 filesystem 的 UTF-8 分块边界乱码与 POSIX 环境 Windows 路径误解析。<br>[PR #4703](https://github.com/modelcontextprotocol/servers/pull/4703) · [PR #4704](https://github.com/modelcontextprotocol/servers/pull/4704) | #4704 已合并；#4703 已关闭 |
-
-## 技术方向
-
-我持续阅读和实践这些项目中的工程模式，它们是参考项目，不代表我的原创工作：
-
-- **Agent 上下文与记忆**： [OpenViking](https://github.com/volcengine/OpenViking) · [Mem0](https://github.com/mem0ai/mem0)
-- **有状态 Agent 编排**： [LangGraph](https://github.com/langchain-ai/langgraph)
-- **工具互操作协议**： [MCP Servers](https://github.com/modelcontextprotocol/servers)
-- **生产级 RAG**： [RAGFlow](https://github.com/infiniflow/ragflow)
-
-## 开源协作目标
-
-当前重点是围绕 RAG、Agent、工具协议和后端基础设施持续提交可复现、可审查、带回归测试的改动。长期目标是先成为稳定的项目贡献者，再依据各项目的治理流程承担 reviewer、maintainer 或 committer 职责；主页只记录已经公开、可核验的 Issue、PR 和 commit，不把目标写成既成身份。
-
-我的协作方式是：从公开问题或维护者反馈开始，提交小而完整的修复；及时响应 review；在同一项目中持续贡献测试、文档和边界场景，逐步建立对代码质量和维护责任的信任。
+| [agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai) | 修复 Agent 渐进式工具披露中的动态 grouped tools 更新问题，并补充回归测试。 | [PR #22（已合并）](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) · [commit 8c65205](https://github.com/agentic-spring-ai/agentic-spring-ai/commit/8c65205bd2c75531054e11cf7ee3fce41348432f) |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 检索目标解析、记忆文本规范化、多模态 embedding 配置、知识图谱展示、会话恢复重试与 RAGFS 锁错误诊断。 | [#4423](https://github.com/volcengine/OpenViking/pull/4423) · [#4424](https://github.com/volcengine/OpenViking/pull/4424) · [#4432](https://github.com/volcengine/OpenViking/pull/4432) · [#4435](https://github.com/volcengine/OpenViking/pull/4435) · [#4437](https://github.com/volcengine/OpenViking/pull/4437) · [#4507](https://github.com/volcengine/OpenViking/pull/4507) |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 修复 filesystem 的 UTF-8 分块边界处理与 POSIX 环境下的 Windows 路径误解析。 | [#4704（已合并）](https://github.com/modelcontextprotocol/servers/pull/4704) · [#4703](https://github.com/modelcontextprotocol/servers/pull/4703) |
+| [neutrino-proxy](https://github.com/dromara/neutrino-proxy) | 端口映射、参数校验、数据库迁移与端口组行为修复。 | [commit e725cdb](https://github.com/dromara/neutrino-proxy/commit/e725cdbb2841c5f4cc520e4dca4b869754b09f98) |
 
 ## 技术栈
 
@@ -65,12 +50,8 @@ Backend   Java / Spring / 分布式系统 / 可观测性
 
 `Agent` `Function Calling` `MCP` `Langfuse` `MinerU`
 
-## 工作方式
+## 开源协作
 
-- 从公开 Issue 或可复现问题出发，先缩小影响范围，再提交最小修复。
-- 用回归测试、CI 和可追溯链接说明改动，而不是只描述概念。
-- 优先处理边界条件：编码、路径、状态、上下文和失败恢复。
+从可复现的问题出发，提交小而完整的修复，用测试、CI 和公开讨论建立长期信任。当前重点是持续参与 RAG、Agent、工具协议和后端基础设施项目，逐步承担更多 review、维护和发布责任。
 
-## 工程原则
-
-> 一个能运行的 Demo 只是起点。真正可依赖的系统，还需要清晰的数据边界、可观测的行为、可度量的质量，以及面对异常时的恢复路径。
+> Reliable AI systems are built at the boundaries: state, protocols, data, and failure recovery.
