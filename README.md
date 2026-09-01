@@ -19,6 +19,7 @@ Java / AI Agent 工程师，关注可靠的工具调用、协议适配与分布�
 围绕 Spring AI Agent 工具生命周期与动态工具披露的修复。
 
 - [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) 修复 progressive tool disclosure 中 grouped tools 的动态更新
+- [#53](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/53) 暴露 filesystem tools 的 object input schema
 
 ## 进行中的贡献
 
