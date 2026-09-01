@@ -14,9 +14,9 @@ Do what I can, attempt what I cannot
 
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
-字节跳动 AI Agent 上下文数据库。持续贡献 6 个 PR，覆盖检索、记忆、知识图谱、会话恢复等核心模块。
+字节跳动 AI Agent 上下文数据库。推进 6 个 PR，覆盖检索、记忆、知识图谱、会话恢复等核心模块，目前处于评审阶段。
 
-ByteDance's AI Agent context database. 6 PRs across retrieval, memory, knowledge graph, and session recovery modules.
+ByteDance's AI Agent context database. 6 PRs under review across retrieval, memory, knowledge graph, and session recovery modules.
 
 > [#4423](https://github.com/volcengine/OpenViking/pull/4423) 检索目标解析修复 / Retrieval target parsing fix
 > [#4424](https://github.com/volcengine/OpenViking/pull/4424) 记忆文本规范化 / Memory text normalization
@@ -27,20 +27,28 @@ ByteDance's AI Agent context database. 6 PRs across retrieval, memory, knowledge
 
 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)**
 
-Anthropic 官方 MCP 协议实现。修复 filesystem server 和 POSIX 环境下的路径解析问题。
+MCP 官方服务器实现。修复 filesystem server 在 POSIX 环境下错误接受 Windows 路径的问题。
 
-Anthropic's official MCP implementation. Fixed filesystem server UTF-8 chunk boundary and POSIX path parsing issues.
+Official MCP server implementations. Fixed Windows-path validation in the filesystem server on POSIX systems.
 
-> [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) ✅ 修复 UTF-8 分块边界 / Fix UTF-8 chunk boundary in filesystem server
-> [#4703](https://github.com/modelcontextprotocol/servers/pull/4703) 修复 POSIX 下 Windows 路径误解析 / Fix Windows path parsing on POSIX systems
+> [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) ✅ 修复 POSIX 下 Windows 路径校验 / Reject Windows paths on POSIX systems
 
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
-Spring AI Agent 框架。修复渐进式工具披露中 grouped tools 动态更新，补充回归测试。
+Spring AI Agent 框架。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
 
-Spring AI Agent framework. Fixed dynamic grouped tools update in progressive tool disclosure, added regression tests.
+Spring AI Agent framework. Fixed dynamic grouped tools and filesystem tool schemas with regression coverage.
 
 > [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) ✅ 修复 grouped tools 动态更新 / Fix dynamic grouped tools update
+> [#53](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/53) ✅ 补全 filesystem tools object schema / Expose filesystem tool object schemas
+
+**[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
+
+Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注解解析、Planner 展示与 MCP schema；当前全部 CI 已通过，等待维护者评审。
+
+Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas; all CI checks pass and maintainer review is pending.
+
+> [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ⏳ Agent/MCP 参数描述传播 / Preserve Agent and MCP argument descriptions
 
 **[dromara/neutrino-proxy](https://github.com/dromara/neutrino-proxy)**
 
