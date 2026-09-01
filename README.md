@@ -12,19 +12,6 @@ Do what I can, attempt what I cannot
 
 ## 开源贡献 / Open Source
 
-**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
-
-字节跳动 AI Agent 上下文数据库。推进 6 个 PR，覆盖检索、记忆、知识图谱、会话恢复等核心模块，目前处于评审阶段。
-
-ByteDance's AI Agent context database. 6 PRs under review across retrieval, memory, knowledge graph, and session recovery modules.
-
-> [#4423](https://github.com/volcengine/OpenViking/pull/4423) 检索目标解析修复 / Retrieval target parsing fix
-> [#4424](https://github.com/volcengine/OpenViking/pull/4424) 记忆文本规范化 / Memory text normalization
-> [#4432](https://github.com/volcengine/OpenViking/pull/4432) 多模态 embedding 配置 / Multimodal embedding configuration
-> [#4435](https://github.com/volcengine/OpenViking/pull/4435) 知识图谱展示修复 / Knowledge graph display fix
-> [#4437](https://github.com/volcengine/OpenViking/pull/4437) 会话恢复重试机制 / Session recovery retry mechanism
-> [#4507](https://github.com/volcengine/OpenViking/pull/4507) RAGFS 锁错误诊断 / RAGFS lock error diagnosis
-
 **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)**
 
 MCP 官方服务器实现。修复 filesystem server 在 POSIX 环境下错误接受 Windows 路径的问题。
