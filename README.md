@@ -37,6 +37,14 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ⏳ Agent/MCP 参数描述传播 / Preserve Agent and MCP argument descriptions
 
+**[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
+
+Java Agent 框架。修复本地 shell 执行在大输出场景下因 stdout/stderr 管道未及时消费而死锁的问题，并补充跨平台回归测试。
+
+Java agent framework. Fixed a pipe-buffer deadlock in local shell execution for large stdout/stderr output and added cross-platform regression coverage.
+
+> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ 修复大输出 shell 死锁 / Fix large-output shell deadlock
+
 **[dromara/neutrino-proxy](https://github.com/dromara/neutrino-proxy)**
 
 内网穿透代理。端口映射、参数校验、数据库迁移与端口组行为修复。
