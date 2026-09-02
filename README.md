@@ -35,6 +35,8 @@ Spring AI Alibaba agent framework. Fixed filesystem tool input schemas so dynami
 
 Tracking Dify's Agent, RAG, MCP, and plugin runtime work. Recent high-priority issues—including Skill CRLF imports, MCP provider validation, and credential permissions—were checked and already have corresponding PRs, so no duplicate changes are proposed.
 
+> #41675 🔎 plugin-daemon restart is surfaced as `400 invalid_param`; source-level exception mapping still under review / dependency failure should be distinguishable from invalid input
+
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
 Spring AI Agent 框架。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
