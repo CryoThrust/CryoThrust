@@ -63,7 +63,7 @@ Java Agent 框架。修复本地 shell 执行在大输出场景下因 stdout/std
 
 Java agent framework. Fixed a pipe-buffer deadlock in local shell execution for large stdout/stderr output and added cross-platform regression coverage.
 
-> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ 构建检查通过，Codecov patch coverage 60%，等待 CLA 同步与维护者评审 / Build checks pass; Codecov reports 60% patch coverage, awaiting CLA sync and maintainer review
+> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ 已补充大 stderr 与 timeout 回归测试，CI 运行中，等待 CLA 同步与维护者评审 / Added large-stderr and timeout regression coverage; CI is running, awaiting CLA sync and maintainer review
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
