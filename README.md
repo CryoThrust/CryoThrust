@@ -31,11 +31,11 @@ Spring AI Agent framework. Fixed dynamic grouped tools and filesystem tool schem
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
-Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注解解析、Planner 展示与 MCP schema；当前全部 CI 已通过，等待维护者评审。
+Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注解解析、Planner 展示与 MCP schema，并补充参数名与描述并存时的 Planner 集成测试。
 
-Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas; all CI checks pass and maintainer review is pending.
+Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas, with integration coverage for planner argument resolution when names and descriptions coexist.
 
-> [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ⏳ Agent/MCP 参数描述传播 / Preserve Agent and MCP argument descriptions
+> [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
