@@ -19,6 +19,15 @@ MCP 官方服务器实现。修复 filesystem server 在 POSIX 环境下错误�
 Official MCP server implementations. Fixed Windows-path validation in the filesystem server on POSIX systems.
 
 > [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) ✅ 修复 POSIX 下 Windows 路径校验 / Reject Windows paths on POSIX systems
+> [#4731](https://github.com/modelcontextprotocol/servers/pull/4731) ⏳ 修复 memory server 对 undefined observation 的处理，CI 通过 / Guard undefined observations in memory search; CI green
+
+**[alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba)**
+
+Spring AI Alibaba Agent 框架。修复 filesystem 工具的输入 schema，使动态工具调用符合 MCP object schema 约定。
+
+Spring AI Alibaba agent framework. Fixed filesystem tool input schemas so dynamically exposed tools follow the MCP object-schema contract.
+
+> [#4942](https://github.com/alibaba/spring-ai-alibaba/pull/4942) ⏳ 修复 ls/glob filesystem tools 的 object schema / Use object input schemas for `ls` and `glob` filesystem tools
 
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
@@ -36,8 +45,8 @@ Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注�
 Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas, with integration coverage for planner argument resolution when names and descriptions coexist.
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
-> [#6250](https://github.com/langchain4j/langchain4j/pull/6250) ⏳ MCP 工具结果支持 image/resource content / Support image and resource content in MCP tool results
-> [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ⏳ 按 `@Tool(name = ...)` 解析工具执行器 / Resolve tool executors by custom `@Tool(name = ...)`
+> [#6250](https://github.com/langchain4j/langchain4j/pull/6250) ⏳ MCP 工具结果支持 image/resource content；JDK 25 检查为环境性超时 / Support image and resource content in MCP tool results; JDK 25 check has an unrelated environment timeout
+> [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ⏳ 按 `@Tool(name = ...)` 解析工具执行器；CI 全通过，等待评审 / Resolve tool executors by custom `@Tool(name = ...)`; all CI checks green, awaiting review
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
