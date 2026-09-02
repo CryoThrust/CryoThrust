@@ -35,7 +35,7 @@ Spring AI Alibaba agent framework. Fixed filesystem tool input schemas so dynami
 
 Tracking Dify's Agent, RAG, MCP, and plugin runtime work. Recent high-priority issues—including Skill CRLF imports, MCP provider validation, and credential permissions—were checked and already have corresponding PRs, so no duplicate changes are proposed.
 
-> #41675 🔎 plugin-daemon restart is surfaced as `400 invalid_param`; source-level exception mapping still under review / dependency failure should be distinguishable from invalid input
+> #41675 🔎 plugin-daemon restart is surfaced as `400 invalid_param`; another contributor has claimed the fix, so we are monitoring the resulting PR / dependency failure should be distinguishable from invalid input
 > #41671 ↗ short media data is duplicated during prompt serialization; tracked as [#41672](https://github.com/langgenius/dify/pull/41672) by the issue reporter, so no duplicate PR
 
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
