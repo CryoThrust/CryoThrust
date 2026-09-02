@@ -45,6 +45,14 @@ Java agent framework. Fixed a pipe-buffer deadlock in local shell execution for 
 
 > [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ CI 全部通过，等待 CLA 与维护者评审 / All CI checks passed; awaiting CLA verification and maintainer review
 
+**[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
+
+Quarkus 的 LangChain4j 集成。修复 Anthropic 客户端在程序化构造且未设置 timeout 时的空指针问题，补充构造级回归测试。
+
+Quarkus integration for LangChain4j. Fixed the null timeout path when constructing the Anthropic client programmatically and added focused construction coverage.
+
+> [#2800](https://github.com/quarkiverse/quarkus-langchain4j/pull/2800) ⏳ 修复 Anthropic 默认 timeout / Fix Anthropic default timeout
+
 **[dromara/neutrino-proxy](https://github.com/dromara/neutrino-proxy)**
 
 内网穿透代理。端口映射、参数校验、数据库迁移与端口组行为修复。
