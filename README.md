@@ -36,6 +36,7 @@ Spring AI Alibaba agent framework. Fixed filesystem tool input schemas so dynami
 Tracking Dify's Agent, RAG, MCP, and plugin runtime work. Recent high-priority issues—including Skill CRLF imports, MCP provider validation, and credential permissions—were checked and already have corresponding PRs, so no duplicate changes are proposed.
 
 > #41675 🔎 plugin-daemon restart is surfaced as `400 invalid_param`; source-level exception mapping still under review / dependency failure should be distinguishable from invalid input
+> #41671 ↗ short media data is duplicated during prompt serialization; tracked as [#41672](https://github.com/langgenius/dify/pull/41672) by the issue reporter, so no duplicate PR
 
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
@@ -62,7 +63,7 @@ Java Agent 框架。修复本地 shell 执行在大输出场景下因 stdout/std
 
 Java agent framework. Fixed a pipe-buffer deadlock in local shell execution for large stdout/stderr output and added cross-platform regression coverage.
 
-> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ CI 全部通过，等待 CLA 与维护者评审 / All CI checks passed; awaiting CLA verification and maintainer review
+> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ 构建检查通过，Codecov patch coverage 60%，等待 CLA 同步与维护者评审 / Build checks pass; Codecov reports 60% patch coverage, awaiting CLA sync and maintainer review
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
