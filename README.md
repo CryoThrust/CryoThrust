@@ -36,6 +36,8 @@ Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注�
 Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas, with integration coverage for planner argument resolution when names and descriptions coexist.
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
+> [#6250](https://github.com/langchain4j/langchain4j/pull/6250) ⏳ MCP 工具结果支持 image/resource content / Support image and resource content in MCP tool results
+> [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ⏳ 按 `@Tool(name = ...)` 解析工具执行器 / Resolve tool executors by custom `@Tool(name = ...)`
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
