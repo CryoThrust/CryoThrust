@@ -29,6 +29,12 @@ Spring AI Alibaba agent framework. Fixed filesystem tool input schemas so dynami
 
 > [#4942](https://github.com/alibaba/spring-ai-alibaba/pull/4942) ⏳ 修复 ls/glob filesystem tools 的 object schema / Use object input schemas for `ls` and `glob` filesystem tools
 
+**[langgenius/dify](https://github.com/langgenius/dify)**
+
+重点关注 Dify 的 Agent、RAG、MCP 与插件运行时问题。目前已核查近期高优先级 issue：可复现的 Skill CRLF 导入、MCP provider 参数校验、凭据权限等问题均已有对应 PR，因此暂不重复提交。
+
+Tracking Dify's Agent, RAG, MCP, and plugin runtime work. Recent high-priority issues—including Skill CRLF imports, MCP provider validation, and credential permissions—were checked and already have corresponding PRs, so no duplicate changes are proposed.
+
 **[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
 Spring AI Agent 框架。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
