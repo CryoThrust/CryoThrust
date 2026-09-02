@@ -43,7 +43,7 @@ Java Agent 框架。修复本地 shell 执行在大输出场景下因 stdout/std
 
 Java agent framework. Fixed a pipe-buffer deadlock in local shell execution for large stdout/stderr output and added cross-platform regression coverage.
 
-> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ 修复大输出 shell 死锁 / Fix large-output shell deadlock
+> [#2936](https://github.com/agentscope-ai/agentscope-java/pull/2936) ⏳ CI 全部通过，等待 CLA 与维护者评审 / All CI checks passed; awaiting CLA verification and maintainer review
 
 **[dromara/neutrino-proxy](https://github.com/dromara/neutrino-proxy)**
 
