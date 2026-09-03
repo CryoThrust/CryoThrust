@@ -37,6 +37,14 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 
+**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
+
+面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果。
+
+Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection.
+
+> [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
+
 ---
 
 ## 原创项目 / Projects
