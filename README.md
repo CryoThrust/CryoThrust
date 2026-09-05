@@ -37,6 +37,14 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 
+**[apache/seatunnel](https://github.com/apache/seatunnel)**
+
+Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界。
+
+Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP, and REST integrations.
+
+> [#12065](https://github.com/apache/seatunnel/pull/12065) ✅ 增加结构化配置校验结果 / Add reusable structured config validation results
+
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
 面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果。
