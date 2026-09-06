@@ -44,6 +44,7 @@ Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化
 Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP, and REST integrations.
 
 > [#12065](https://github.com/apache/seatunnel/pull/12065) ✅ 增加结构化配置校验结果 / Add reusable structured config validation results
+> [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
 
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
