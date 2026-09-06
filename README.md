@@ -20,14 +20,13 @@ Official MCP server implementations. Fixed Windows-path validation in the filesy
 
 > [#4704](https://github.com/modelcontextprotocol/servers/pull/4704) ✅ 修复 POSIX 下 Windows 路径校验 / Reject Windows paths on POSIX systems
 
-**[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
+**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
-Spring AI Agent 框架。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
+面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果。
 
-Spring AI Agent framework. Fixed dynamic grouped tools and filesystem tool schemas with regression coverage.
+Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection.
 
-> [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) ✅ 修复 grouped tools 动态更新 / Fix dynamic grouped tools update
-> [#53](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/53) ✅ 补全 filesystem tools object schema / Expose filesystem tool object schemas
+> [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
@@ -41,19 +40,20 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界。
 
-Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP, and REST integrations.
+Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP and REST integrations.
 
 > [#12065](https://github.com/apache/seatunnel/pull/12065) ✅ 增加结构化配置校验结果 / Add reusable structured config validation results
 > [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
 > [#12052](https://github.com/apache/seatunnel/pull/12052) ✅ 传播待处理作业插入中断 / Propagate interrupted pending-job insertion
 
-**[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
+**[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
 
-面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果。
+独立社区维护的 Spring AI 生态项目，并非 Spring 官方项目。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
 
-Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection.
+Independent community project in the Spring AI ecosystem, not an official Spring project. Fixed dynamic grouped tools and filesystem tool schemas with regression coverage.
 
-> [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
+> [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) ✅ 修复 grouped tools 动态更新 / Fix dynamic grouped tools update
+> [#53](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/53) ✅ 补全 filesystem tools object schema / Expose filesystem tool object schemas
 
 ---
 
