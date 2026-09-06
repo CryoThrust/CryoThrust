@@ -45,6 +45,7 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 > [#12065](https://github.com/apache/seatunnel/pull/12065) ✅ 增加结构化配置校验结果 / Add reusable structured config validation results
 > [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
+> [#12052](https://github.com/apache/seatunnel/pull/12052) ✅ 传播待处理作业插入中断 / Propagate interrupted pending-job insertion
 
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
