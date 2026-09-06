@@ -46,15 +46,6 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 > [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
 > [#12052](https://github.com/apache/seatunnel/pull/12052) ✅ 传播待处理作业插入中断 / Propagate interrupted pending-job insertion
 
-**[agentic-spring-ai/agentic-spring-ai](https://github.com/agentic-spring-ai/agentic-spring-ai)**
-
-独立社区维护的 Spring AI 生态项目，并非 Spring 官方项目。修复渐进式工具披露与 filesystem tools schema，补充回归测试。
-
-Independent community project in the Spring AI ecosystem, not an official Spring project. Fixed dynamic grouped tools and filesystem tool schemas with regression coverage.
-
-> [#22](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/22) ✅ 修复 grouped tools 动态更新 / Fix dynamic grouped tools update
-> [#53](https://github.com/agentic-spring-ai/agentic-spring-ai/pull/53) ✅ 补全 filesystem tools object schema / Expose filesystem tool object schemas
-
 ---
 
 ## 原创项目 / Projects
