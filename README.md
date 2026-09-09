@@ -30,11 +30,12 @@ Context database for AI agents. Fixed working-memory output-language handling wh
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
-Java LLM 应用框架。为 Agent 与 MCP 参数补充描述传播，覆盖注解解析、Planner 展示与 MCP schema，并补充参数名与描述并存时的 Planner 集成测试。
+Java LLM 应用框架。改进工具规范与执行链路：为 Agent 与 MCP 参数补充描述传播，并让工具执行按发布给模型的名称解析，同时正确继承接口/父类上的参数元数据。
 
 Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas, with integration coverage for planner argument resolution when names and descriptions coexist.
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
+> [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
 
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
