@@ -37,6 +37,14 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
 
+**[spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)**
+
+Spring 官方 Java AI 应用框架。补充 OpenAI Chat Completions `reasoning-effort` 配置文档，明确推理模型与工具调用的兼容性边界。
+
+Spring's official Java AI application framework. Documented the OpenAI Chat Completions `reasoning-effort` option and its compatibility boundary with reasoning models and tool calling.
+
+> [#6943](https://github.com/spring-projects/spring-ai/pull/6943) ✅ 文档化 OpenAI reasoning effort / Document OpenAI reasoning effort
+
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
 Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界。
