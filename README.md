@@ -47,6 +47,15 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 > [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
 > [#12052](https://github.com/apache/seatunnel/pull/12052) ✅ 传播待处理作业插入中断 / Propagate interrupted pending-job insertion
 
+**[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
+
+面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，并为 HarnessAgent 增加内置 Web 工具的显式禁用能力，避免与用户工具冲突。
+
+Java framework for agent applications. Fixed state-version cache retention in long-lived agents and added explicit opt-out for HarnessAgent built-in web tools to avoid collisions with user-defined tools.
+
+> [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
+> [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
+
 ---
 
 ## 原创项目 / Projects
