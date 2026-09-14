@@ -37,6 +37,14 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
 
+**[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
+
+Quarkus 的 LangChain4j 扩展。修复 Anthropic 客户端在未显式配置超时时构造即抛 NullPointerException 的问题，回退到与 LangChain4j 一致的默认超时。
+
+LangChain4j extension for Quarkus. Fixed the Anthropic client throwing a NullPointerException at construction when no timeout was configured, falling back to the same default as LangChain4j.
+
+> [#2800](https://github.com/quarkiverse/quarkus-langchain4j/pull/2800) ✅ 修复 Anthropic 客户端默认超时 / Default the Anthropic client timeout when unset
+
 **[spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)**
 
 Spring 官方 Java AI 应用框架。补充 OpenAI Chat Completions `reasoning-effort` 配置文档，明确推理模型与工具调用的兼容性边界。
