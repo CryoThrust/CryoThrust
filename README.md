@@ -47,10 +47,11 @@ Spring's official Java AI application framework. Documented the OpenAI Chat Comp
 
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
-Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界。
+Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界；并新增 Mem0 平台 sink 连接器，让 Agent 记忆可以作为数据流写入。
 
-Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP and REST integrations.
+Apache SeaTunnel data integration platform. Added reusable structured validation results without changing existing CLI behavior, establishing a stable boundary for future CLI, MCP and REST integrations; also added a Mem0 Platform sink connector so agent memory can be written as a dataflow.
 
+> [#12233](https://github.com/apache/seatunnel/pull/12233) ✅ 新增 Mem0 Platform sink 连接器 / Add Mem0 Platform sink connector
 > [#12065](https://github.com/apache/seatunnel/pull/12065) ✅ 增加结构化配置校验结果 / Add reusable structured config validation results
 > [#12088](https://github.com/apache/seatunnel/pull/12088) ✅ 支持 Confluent-framed Avro payload / Support Confluent-framed Avro payloads
 > [#12052](https://github.com/apache/seatunnel/pull/12052) ✅ 传播待处理作业插入中断 / Propagate interrupted pending-job insertion
