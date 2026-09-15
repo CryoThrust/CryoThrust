@@ -66,12 +66,13 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
-面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，并为 HarnessAgent 增加内置 Web 工具的显式禁用能力，避免与用户工具冲突。
+面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，并让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置。
 
-Java framework for agent applications. Fixed state-version cache retention in long-lived agents and added explicit opt-out for HarnessAgent built-in web tools to avoid collisions with user-defined tools.
+Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, and decoupled DashScope streaming from thinking mode so an explicit caller setting is honored.
 
 > [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
+> [#3137](https://github.com/agentscope-ai/agentscope-java/pull/3137) ✅ 解耦 DashScope 流式与思考模式 / Decouple DashScope streaming from thinking mode
 
 ---
 
