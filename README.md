@@ -22,11 +22,12 @@ Official MCP server implementations. Fixed Windows-path validation in the filesy
 
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
-面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果。
+面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果；修正 Ollama 视觉模型的上下文窗口参数传递方式，避免长提示被静默截断。
 
-Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection.
+Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection; corrected how the Ollama vision path passes the context-window option, so long prompts are no longer silently truncated.
 
 > [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
+> [#5033](https://github.com/volcengine/OpenViking/pull/5033) ✅ 修正 Ollama `num_ctx` 传参 / Send Ollama `num_ctx` as a top-level option
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
@@ -51,7 +52,7 @@ Spring 官方 Java AI 应用框架。补充 OpenAI Chat Completions `reasoning-e
 
 Spring's official Java AI application framework. Documented the OpenAI Chat Completions `reasoning-effort` option and its compatibility boundary with reasoning models and tool calling.
 
-> [#6943](https://github.com/spring-projects/spring-ai/pull/6943) ✅ 文档化 OpenAI reasoning effort / Document OpenAI reasoning effort
+> [#6943](https://github.com/spring-projects/spring-ai/pull/6943) ✅ 文档化 OpenAI reasoning effort（提交已并入 `main`）/ Document OpenAI reasoning effort (commit landed on `main`)
 
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
@@ -66,13 +67,14 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
-面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，并让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置。
+面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置，并为被用户拒绝的 HITL 工具调用补齐工具结果事件。
 
-Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, and decoupled DashScope streaming from thinking mode so an explicit caller setting is honored.
+Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, decoupled DashScope streaming from thinking mode so an explicit caller setting is honored, and emitted the missing tool-result events for user-denied HITL calls.
 
 > [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
 > [#3137](https://github.com/agentscope-ai/agentscope-java/pull/3137) ✅ 解耦 DashScope 流式与思考模式 / Decouple DashScope streaming from thinking mode
+> [#3104](https://github.com/agentscope-ai/agentscope-java/pull/3104) ✅ 补齐用户拒绝的 HITL 工具结果事件 / Emit tool result events for user-denied HITL calls
 
 ---
 
