@@ -38,7 +38,7 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
-> [#6369](https://github.com/langchain4j/langchain4j/pull/6369) ✅ 支持 MCP 工具结果中的图像与资源内容 / Support image and resource content types in MCP tool results
+> [#6369](https://github.com/langchain4j/langchain4j/pull/6369) ✅ 防止 MCP `tools/list` 缺少结果字段时空指针 / Avoid NPE when an MCP `tools/list` response omits its result
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
