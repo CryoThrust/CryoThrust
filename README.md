@@ -28,6 +28,7 @@ Context database for AI agents. Fixed working-memory output-language handling wh
 
 > [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
 > [#5033](https://github.com/volcengine/OpenViking/pull/5033) ✅ 修正 Ollama `num_ctx` 传参 / Send Ollama `num_ctx` as a top-level option
+> [#4435](https://github.com/volcengine/OpenViking/pull/4435) ✅ 修正知识图谱推荐模块样式 / Fix recommended knowledge-graph module styling
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
@@ -37,6 +38,7 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
+> [#6369](https://github.com/langchain4j/langchain4j/pull/6369) ✅ 支持 MCP 工具结果中的图像与资源内容 / Support image and resource content types in MCP tool results
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
@@ -75,6 +77,8 @@ Java framework for agent applications. Fixed state-version cache retention in lo
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
 > [#3137](https://github.com/agentscope-ai/agentscope-java/pull/3137) ✅ 解耦 DashScope 流式与思考模式 / Decouple DashScope streaming from thinking mode
 > [#3104](https://github.com/agentscope-ai/agentscope-java/pull/3104) ✅ 补齐用户拒绝的 HITL 工具结果事件 / Emit tool result events for user-denied HITL calls
+> [#3146](https://github.com/agentscope-ai/agentscope-java/pull/3146) ✅ 暴露 Ollama thinking 输出 / Surface Ollama thinking output as a ThinkingBlock
+> [#3062](https://github.com/agentscope-ai/agentscope-java/pull/3062) ✅ 增加记忆与会话多关键词匹配模式 / Add multi-keyword matching modes for memory and session search
 
 ---
 
