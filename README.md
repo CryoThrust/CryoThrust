@@ -48,14 +48,6 @@ LangChain4j extension for Quarkus. Fixed the Anthropic client throwing a NullPoi
 
 > [#2800](https://github.com/quarkiverse/quarkus-langchain4j/pull/2800) ✅ 修复 Anthropic 客户端默认超时 / Default the Anthropic client timeout when unset
 
-**[spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)**
-
-Spring 官方 Java AI 应用框架。补充 OpenAI Chat Completions `reasoning-effort` 配置文档，明确推理模型与工具调用的兼容性边界。
-
-Spring's official Java AI application framework. Documented the OpenAI Chat Completions `reasoning-effort` option and its compatibility boundary with reasoning models and tool calling.
-
-> [#6943](https://github.com/spring-projects/spring-ai/pull/6943) ✅ 文档化 OpenAI reasoning effort（提交已并入 `main`）/ Document OpenAI reasoning effort (commit landed on `main`)
-
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
 Apache SeaTunnel 数据集成平台。为配置校验增加可复用、结构化的验证结果模型，在不改变既有 CLI 行为的前提下，为后续 CLI、MCP 和 REST 集成提供稳定的数据边界；并新增 Mem0 平台 sink 连接器，让 Agent 记忆可以作为数据流写入。
