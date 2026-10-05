@@ -22,9 +22,9 @@ Official MCP server implementations. Fixed Windows-path validation in the filesy
 
 **[volcengine/OpenViking](https://github.com/volcengine/OpenViking)**
 
-面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果；修正 Ollama 视觉模型的上下文窗口参数传递方式，避免长提示被静默截断。
+面向 Agent 的上下文数据库。修复工作记忆输出语言处理，并保留多行用户输入的自动语言检测结果；修正 Ollama 视觉模型的上下文窗口参数传递方式，避免长提示被静默截断；为知识图谱补齐 `module` 实体类型的可视化样式，使其不再静默回退为 `other`。
 
-Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection; corrected how the Ollama vision path passes the context-window option, so long prompts are no longer silently truncated.
+Context database for AI agents. Fixed working-memory output-language handling while preserving multiline user content during automatic language detection; corrected how the Ollama vision path passes the context-window option, so long prompts are no longer silently truncated; added a dedicated visualization style for `module` entities so recommended modules no longer fall back to `other`.
 
 > [#4514](https://github.com/volcengine/OpenViking/pull/4514) ✅ 修复工作记忆语言检测 / Fix working-memory language detection
 > [#5033](https://github.com/volcengine/OpenViking/pull/5033) ✅ 修正 Ollama `num_ctx` 传参 / Send Ollama `num_ctx` as a top-level option
@@ -38,7 +38,6 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
-> [#6369](https://github.com/langchain4j/langchain4j/pull/6369) ✅ 防止 MCP `tools/list` 缺少结果字段时空指针 / Avoid NPE when an MCP `tools/list` response omits its result
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
@@ -61,16 +60,15 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
-面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置，并为被用户拒绝的 HITL 工具调用补齐工具结果事件。
+面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置，为被用户拒绝的 HITL 工具调用补齐工具结果事件，并把 Ollama 的 thinking 输出提取为 ThinkingBlock。
 
-Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, decoupled DashScope streaming from thinking mode so an explicit caller setting is honored, and emitted the missing tool-result events for user-denied HITL calls.
+Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, decoupled DashScope streaming from thinking mode so an explicit caller setting is honored, emitted the missing tool-result events for user-denied HITL calls, and surfaced Ollama thinking output as a ThinkingBlock.
 
 > [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
 > [#3137](https://github.com/agentscope-ai/agentscope-java/pull/3137) ✅ 解耦 DashScope 流式与思考模式 / Decouple DashScope streaming from thinking mode
 > [#3104](https://github.com/agentscope-ai/agentscope-java/pull/3104) ✅ 补齐用户拒绝的 HITL 工具结果事件 / Emit tool result events for user-denied HITL calls
 > [#3146](https://github.com/agentscope-ai/agentscope-java/pull/3146) ✅ 暴露 Ollama thinking 输出 / Surface Ollama thinking output as a ThinkingBlock
-> [#3062](https://github.com/agentscope-ai/agentscope-java/pull/3062) ✅ 增加记忆与会话多关键词匹配模式 / Add multi-keyword matching modes for memory and session search
 
 ---
 
