@@ -41,11 +41,12 @@ Java framework for LLM applications. Preserved Agent and MCP argument descriptio
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
-Quarkus 的 LangChain4j 扩展。修复 Anthropic 客户端在未显式配置超时时构造即抛 NullPointerException 的问题，回退到与 LangChain4j 一致的默认超时。
+Quarkus 的 LangChain4j 扩展。修复 Anthropic 客户端的默认超时与自定义请求头传递，保障模型调用与 API 网关接入。
 
-LangChain4j extension for Quarkus. Fixed the Anthropic client throwing a NullPointerException at construction when no timeout was configured, falling back to the same default as LangChain4j.
+LangChain4j extension for Quarkus. Fixed the Anthropic client's default timeout and custom-header forwarding for model calls through API gateways.
 
 > [#2800](https://github.com/quarkiverse/quarkus-langchain4j/pull/2800) ✅ 修复 Anthropic 客户端默认超时 / Default the Anthropic client timeout when unset
+> [#2920](https://github.com/quarkiverse/quarkus-langchain4j/pull/2920) ✅ 传递 Anthropic 自定义请求头 / Forward custom headers to Anthropic
 
 **[apache/seatunnel](https://github.com/apache/seatunnel)**
 
