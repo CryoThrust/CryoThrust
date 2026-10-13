@@ -61,15 +61,16 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
-面向 Java 的 Agent 应用框架。修复长生命周期 Agent 的状态版本缓存泄漏，为 HarnessAgent 增加内置 Web 工具的显式禁用能力，让 DashScope 模型的流式与思考模式解耦、尊重调用方显式设置，为被用户拒绝的 HITL 工具调用补齐工具结果事件，并把 Ollama 的 thinking 输出提取为 ThinkingBlock。
+面向 Java 的 Agent 应用框架。改进状态生命周期与工具执行链路：修复状态版本缓存泄漏，支持禁用内置 Web 工具，补齐 HITL 拒绝事件；完善 DashScope 与 Ollama 的思考输出处理，并以虚拟时间验证异步等待的超时边界。
 
-Java framework for agent applications. Fixed state-version cache retention in long-lived agents, added explicit opt-out for HarnessAgent built-in web tools, decoupled DashScope streaming from thinking mode so an explicit caller setting is honored, emitted the missing tool-result events for user-denied HITL calls, and surfaced Ollama thinking output as a ThinkingBlock.
+Java framework for agent applications. Improved state lifecycle and tool execution: fixed state-version cache retention, added opt-out for built-in web tools and completed HITL denial events; refined DashScope and Ollama thinking handling and verified async wait timeout boundaries with virtual time.
 
 > [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
 > [#3137](https://github.com/agentscope-ai/agentscope-java/pull/3137) ✅ 解耦 DashScope 流式与思考模式 / Decouple DashScope streaming from thinking mode
 > [#3104](https://github.com/agentscope-ai/agentscope-java/pull/3104) ✅ 补齐用户拒绝的 HITL 工具结果事件 / Emit tool result events for user-denied HITL calls
 > [#3146](https://github.com/agentscope-ai/agentscope-java/pull/3146) ✅ 暴露 Ollama thinking 输出 / Surface Ollama thinking output as a ThinkingBlock
+> [#3529](https://github.com/agentscope-ai/agentscope-java/pull/3529) ✅ 确定性验证异步等待超时 / Make async wait timeout tests deterministic
 
 ---
 
