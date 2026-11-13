@@ -32,12 +32,13 @@ Context database for AI agents. Fixed working-memory output-language handling wh
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
-Java LLM 应用框架。改进工具规范与执行链路：为 Agent 与 MCP 参数补充描述传播，并让工具执行按发布给模型的名称解析，同时正确继承接口/父类上的参数元数据。
+Java LLM 应用框架。改进工具规范与执行链路：补齐 Agent 与 MCP 参数描述传播、工具名称解析和参数元数据继承；为 MCP 工具结果支持原生图片与嵌入式文本资源，保留混合内容顺序。
 
-Java framework for LLM applications. Preserved Agent and MCP argument descriptions across annotations, planner rendering, and MCP schemas, with integration coverage for planner argument resolution when names and descriptions coexist.
+Java framework for LLM applications. Improved argument metadata and tool-name resolution; added native MCP image results and embedded text resources while preserving mixed-content order.
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
+> [#6250](https://github.com/langchain4j/langchain4j/pull/6250) ✅ 支持 MCP 原生图片与文本资源 / Preserve native MCP images and embedded text resources
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
@@ -61,9 +62,9 @@ Apache SeaTunnel data integration platform. Added reusable structured validation
 
 **[agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java)**
 
-面向 Java 的 Agent 应用框架。改进状态生命周期与工具执行链路：修复状态版本缓存泄漏，支持禁用内置 Web 工具，补齐 HITL 拒绝事件；完善 DashScope 与 Ollama 的思考输出处理，并以虚拟时间验证异步等待的超时边界。
+面向 Java 的 Agent 应用框架。改进状态生命周期与工具执行链路：修复状态版本缓存泄漏，支持禁用内置 Web 工具，补齐 HITL 拒绝事件；完善模型思考输出与异步超时测试，并修复网关并发订阅间的租约隔离。
 
-Java framework for agent applications. Improved state lifecycle and tool execution: fixed state-version cache retention, added opt-out for built-in web tools and completed HITL denial events; refined DashScope and Ollama thinking handling and verified async wait timeout boundaries with virtual time.
+Java framework for agent applications. Improved state lifecycle, tool execution and model thinking output; added deterministic async timeout tests and isolated gateway turn leases per subscription.
 
 > [#3074](https://github.com/agentscope-ai/agentscope-java/pull/3074) ✅ 清理 slot version 缓存 / Evict slot version cache entries
 > [#3075](https://github.com/agentscope-ai/agentscope-java/pull/3075) ✅ 支持禁用内置 Web 工具 / Allow disabling built-in web tools
@@ -71,6 +72,7 @@ Java framework for agent applications. Improved state lifecycle and tool executi
 > [#3104](https://github.com/agentscope-ai/agentscope-java/pull/3104) ✅ 补齐用户拒绝的 HITL 工具结果事件 / Emit tool result events for user-denied HITL calls
 > [#3146](https://github.com/agentscope-ai/agentscope-java/pull/3146) ✅ 暴露 Ollama thinking 输出 / Surface Ollama thinking output as a ThinkingBlock
 > [#3529](https://github.com/agentscope-ai/agentscope-java/pull/3529) ✅ 确定性验证异步等待超时 / Make async wait timeout tests deterministic
+> [#3550](https://github.com/agentscope-ai/agentscope-java/pull/3550) ✅ 隔离网关订阅的执行租约 / Scope gateway turn leases to each subscription
 
 ---
 
