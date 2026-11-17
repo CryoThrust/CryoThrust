@@ -32,13 +32,14 @@ Context database for AI agents. Fixed working-memory output-language handling wh
 
 **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)**
 
-Java LLM 应用框架。改进工具规范与执行链路：补齐 Agent 与 MCP 参数描述传播、工具名称解析和参数元数据继承；为 MCP 工具结果支持原生图片与嵌入式文本资源，保留混合内容顺序。
+Java LLM 应用框架。改进工具规范与执行链路：补齐 Agent 与 MCP 参数描述传播、工具名称解析和参数元数据继承；支持 MCP 原生图片与嵌入式文本资源；为 A2A Agent Card 发现增加动态鉴权请求头，同时覆盖编程式与声明式 API。
 
-Java framework for LLM applications. Improved argument metadata and tool-name resolution; added native MCP image results and embedded text resources while preserving mixed-content order.
+Java framework for LLM applications. Improved argument metadata and tool-name resolution; added native MCP images and embedded text resources; enabled dynamic authentication headers for A2A Agent Card discovery through both programmatic and declarative APIs.
 
 > [#6241](https://github.com/langchain4j/langchain4j/pull/6241) ✅ 已合并 / Merged
 > [#6268](https://github.com/langchain4j/langchain4j/pull/6268) ✅ 按 ToolSpecification 名称解析工具 / Resolve tools by published ToolSpecification names
 > [#6250](https://github.com/langchain4j/langchain4j/pull/6250) ✅ 支持 MCP 原生图片与文本资源 / Preserve native MCP images and embedded text resources
+> [#7132](https://github.com/langchain4j/langchain4j/pull/7132) ✅ 支持 A2A Agent Card 发现鉴权 / Authenticate A2A Agent Card discovery
 
 **[quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)**
 
